@@ -16,3 +16,10 @@ Route::get('/hamu', function () {
 });
 
 Route::get('/hello' , 'HelloController@index');
+
+//ここからハムスターページ
+Route::get('/hamu_test' , 'hamuController@index_hamu');
+//ジャンガリアン
+
+Route::get('/hamu_test2', 'hamuController@index_hamu_2');
+//キャンベル
