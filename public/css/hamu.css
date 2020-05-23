@@ -1,0 +1,61 @@
+@charset "utf-8";
+/*文字化け防止*/
+
+ol ui{
+    list-style-type: none;
+}
+
+body{
+    text-align: center;
+    background-color: lightblue;
+}
+
+.main{
+    background-color: aliceblue;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    width: 50%;
+}
+
+@media screen and (max-width: 400px){
+    h1{
+        font-size: 24px;
+    }
+
+    .main{
+        max-width: 90%;
+    }
+    img{
+        width: 70%;
+    }
+}
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table th,td{
+    padding: 5px 10px;
+}
+
+h2{
+    background-color: aquamarine;
+}
+
+h3{
+    background-color: rgb(247, 245, 148);
+}
+
+.Personality{
+    padding-bottom: 30px;
+}
+
+.color_2{
+    background-color: rgb(252, 221, 226);
+}
