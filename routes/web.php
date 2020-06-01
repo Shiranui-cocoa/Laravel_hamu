@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/hamu', function () {
+Route::get('/', function () {
     return view('hamu');
 });
 

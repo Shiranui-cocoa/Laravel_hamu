@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+
 class hamuController extends Controller{
     public function index_hamu(){
 
